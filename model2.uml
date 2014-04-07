@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_wKlKYL4uEeOKE4-uqyU_8w" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8qtqIL4uEeOKE4-uqyU_8w" name="User"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9vXlEL4uEeOKE4-uqyU_8w" name="Switch a Switcher On/Off"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qK4cUL4vEeOKE4-uqyU_8w" name="set Timers for a Switcher"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9J5EAL4vEeOKE4-uqyU_8w" name="do app Settings">
+    <include xmi:type="uml:Include" xmi:id="_iTelwL4wEeOKE4-uqyU_8w" addition="_OYnZ0L4wEeOKE4-uqyU_8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYnZ0L4wEeOKE4-uqyU_8w" name="Setting Proximity On/Off"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lwHrwL4wEeOKE4-uqyU_8w" name="Manage Switchers"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3x6dQL4wEeOKE4-uqyU_8w" name="A_user_switch a switcher on/off" memberEnd="_3x6dQb4wEeOKE4-uqyU_8w _3x6dRL4wEeOKE4-uqyU_8w">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3x6dQb4wEeOKE4-uqyU_8w" name="user" type="_8qtqIL4uEeOKE4-uqyU_8w" association="_3x6dQL4wEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3x6dQr4wEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3x6dQ74wEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3x6dRL4wEeOKE4-uqyU_8w" name="switch a switcher on/off" type="_9vXlEL4uEeOKE4-uqyU_8w" association="_3x6dQL4wEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3x6dRb4wEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3x6dRr4wEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5cS7cL4wEeOKE4-uqyU_8w" name="A_user_setting timers of a switcher" memberEnd="_5cS7cb4wEeOKE4-uqyU_8w _5cS7dL4wEeOKE4-uqyU_8w">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5cS7cb4wEeOKE4-uqyU_8w" name="user" type="_8qtqIL4uEeOKE4-uqyU_8w" association="_5cS7cL4wEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5cS7cr4wEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5cS7c74wEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5cS7dL4wEeOKE4-uqyU_8w" name="setting timers of a switcher" type="_qK4cUL4vEeOKE4-uqyU_8w" association="_5cS7cL4wEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5cS7db4wEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5cS7dr4wEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8k_xwL4wEeOKE4-uqyU_8w" name="A_user_app settings" memberEnd="_8k_xwb4wEeOKE4-uqyU_8w _8k_xxL4wEeOKE4-uqyU_8w">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8k_xwb4wEeOKE4-uqyU_8w" name="user" type="_8qtqIL4uEeOKE4-uqyU_8w" association="_8k_xwL4wEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8k_xwr4wEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8k_xw74wEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8k_xxL4wEeOKE4-uqyU_8w" name="app settings" type="_9J5EAL4vEeOKE4-uqyU_8w" association="_8k_xwL4wEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8k_xxb4wEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8k_xxr4wEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ALFusL4xEeOKE4-uqyU_8w" name="A_user_managing switchers" memberEnd="_ALFusb4xEeOKE4-uqyU_8w _ALFutL4xEeOKE4-uqyU_8w">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ALFusb4xEeOKE4-uqyU_8w" name="user" type="_8qtqIL4uEeOKE4-uqyU_8w" association="_ALFusL4xEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ALFusr4xEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ALFus74xEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ALFutL4xEeOKE4-uqyU_8w" name="managing switchers" type="_lwHrwL4wEeOKE4-uqyU_8w" association="_ALFusL4xEeOKE4-uqyU_8w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ALFutb4xEeOKE4-uqyU_8w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ALFutr4xEeOKE4-uqyU_8w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
