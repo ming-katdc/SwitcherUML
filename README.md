@@ -1,0 +1,4 @@
+SwitcherUML
+===========
+
+Switcher UML diagrams
