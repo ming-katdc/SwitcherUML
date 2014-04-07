@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_sPD2YL42EeOiR-ST6Wj5Zw" name="model">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_99tCYL42EeOiR-ST6Wj5Zw" name="manage switchers"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_G8oFML43EeOiR-ST6Wj5Zw" name="list switchers"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Jp0EML43EeOiR-ST6Wj5Zw" name="remove a switcher from the list"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OhHKUL43EeOiR-ST6Wj5Zw" name="detect a new switcher nearby"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SxwgIL43EeOiR-ST6Wj5Zw" name="add a new switcher to the list"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Xi-MYL43EeOiR-ST6Wj5Zw" name="edit a switcher settings"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_htPA8L43EeOiR-ST6Wj5Zw" name="loop through the list to check reachibility"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sgUwEL43EeOiR-ST6Wj5Zw" name="loop and sync switchers settings to local database"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yAz9IL43EeOiR-ST6Wj5Zw" name="loop and enable proximity"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RU-joL44EeOiR-ST6Wj5Zw" name="iphone"/>
+</uml:Model>
